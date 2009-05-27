@@ -5,13 +5,12 @@ This is a incomplete step-by-step implementation of the Y Combinator - http://en
 
 Basically, following the same reasoning from the book "the little schemer", pages 160-173.
 
-(the "hard" part is done - the final refactoring to extract the y-combinator function is not in place yet)
-
+Only the deduction part (aka "hard part") is implemented here - the final refactoring to extract the y-combinator function is not yet in place. For now, please check the python version at http://github.com/bzanchet/pycombinator.
 
 It's tested according to Joe Armstrong suggestion called "micro lightweight unit testing" - more info at http://armstrongonsoftware.blogspot.com/2009/01/micro-lightweight-unit-testing.html.
 
 
-To run the "micro lightweight" test suite, run:
+To run the "micro lightweight" test suite:
 $ make test
 
 To clean intermediate files:
