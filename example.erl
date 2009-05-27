@@ -1,2 +1,0 @@
-% supervisors, behavior, mnesia
-
