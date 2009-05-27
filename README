@@ -1,0 +1,22 @@
+Erlycombinator - Y Combinator implementation in erlang
+
+
+This is a incomplete step-by-step implementation of the Y Combinator - http://en.wikipedia.org/wiki/Y_combinator - function in erlang using test-driven development.
+
+Basically, following the same reasoning from the book "the little schemer", pages 160-173.
+
+(the "hard" part is done - the final refactoring to extract the y-combinator function is not in place yet)
+
+
+It's tested according to Joe Armstrong suggestion called "micro lightweight unit testing" - more info at http://armstrongonsoftware.blogspot.com/2009/01/micro-lightweight-unit-testing.html.
+
+
+To run the "micro lightweight" test suite, run:
+$ make test
+
+To clean intermediate files:
+$ make clean
+
+
+This code is licensed under WTFPL - Do What The Fuck You Want To Public License.
+Questions, comments - bzanchet at gmail.com
